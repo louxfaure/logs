@@ -6,7 +6,7 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-
+#Test pour git
 
 def init_logs(logsrep,programme,niveau):
     
