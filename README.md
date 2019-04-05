@@ -13,6 +13,8 @@ Nom du programme qui écrit les logs. IL va permettre de nommer mon  logger afin
 Définie aussi le nom du fichier des logs.
 ### niveau
 Niveau des messages à écrire dans les logs.
+
+
 Niveau | Valeur | Usage
 ------ | ------ | -----
 CRITICAL | 50 | Le programme complet est en train de partir en couille.
