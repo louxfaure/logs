@@ -3,7 +3,7 @@
 import logging
 import logs 
 programme = 'test_log'
-mode = 'INFO'
+mode = 'INFO' #Niveau des messages à écrire dans les logs : DEBUG, INFO, WARNING, ERROR, CRITICAL
 logs.init_logs('/home/loux/.Alma',programme,mode)
 log_module = logging.getLogger(programme)
 
