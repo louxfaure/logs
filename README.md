@@ -42,4 +42,4 @@ sub_module.py
 
     log_module.debug('debug')
     log_module.info('Hello')
-    log_module.warning('Atention'
+    log_module.warning('Atention')
