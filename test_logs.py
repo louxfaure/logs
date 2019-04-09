@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import logging
-import logs 
+import logs
+import test_module_aux
 
 def Monmodule(texte) :
     log_module.warning(texte)
@@ -16,3 +17,4 @@ log_module.info('Hello')
 log_module.warning('Attention ! %s a planté dans %s' % ('machin','truc'))
 Monmodule("Prout !")
 log_module.info("Traitement en cours déxecution ({}%)".format(99))
+test_module_aux.test_module_aux(programme)
