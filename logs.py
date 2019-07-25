@@ -10,7 +10,6 @@ from logging.handlers import RotatingFileHandler
 def init_logs(logsrep,programme,niveau):
     
     logsfile = logsrep + "/" + programme + ".log"
-    print(logsfile)
     # création de l'objet logger qui va nous servir à écrire dans les logs
     logger = logging.getLogger(programme)
     # on met le niveau du logger à DEBUG, comme ça il écrit tout
